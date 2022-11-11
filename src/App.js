@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import styled from "styled-components";
+import Login from "./pages/auth/Login";
+import SignUp from "./pages/auth/SignUp";
+import PasswordLink from "./pages/auth/PasswordLink";
+import PasswordReset from "./pages/auth/PasswordReset";
+import Home from "./pages/Home";
+
+const Wrapper = styled.div`
+position: relative;
+`;
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Wrapper>
+      {/* <Login /> */}
+      {/* <SignUp /> */}
+      {/* <PasswordLink /> */}
+      {/* <PasswordReset /> */}
+      <Home/>
+      
+    </Wrapper>
   );
 }
 
