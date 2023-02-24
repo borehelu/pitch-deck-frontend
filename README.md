@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Pitch Deck
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pitch Deck is a web application that allows users to share ideas and get feedback from a community of like-minded individuals. The platform focuses on ideas around agriculture, business, technology, and more. Users can upvote ideas and leave comments to provide feedback or ask questions.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+Pitch Deck has the following features:
 
-### `npm start`
+- **User Registration and Authentication**: Users can register for an account and log in using their email address and password.
+- **Idea Submission**: Users can submit their ideas in the categories of agriculture, business, technology, and more.
+- **Voting**: Other users can upvote ideas they like to show their support.
+- **Comments**: Users can leave comments on ideas to provide feedback or ask questions.
+- **Sorting and Filtering**: Users can sort and filter ideas by category, date, and number of votes to find the most popular and relevant ideas.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technology Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Pitch Deck is built using the following technology stack:
 
-### `npm test`
+- **Backend**: NodeJS, Express,JWT
+- **Frontend**: ReactJs, Formik and YUP, Styled Components, Redux Toolkit
+- **Database**: MySQL
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To get started with Pitch Deck, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository to your local machine using the following command:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+git clone https://github.com/borehelu/pitch-deck
+````
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Import the SQL file to create the database structure and sample data. You can use a tool like phpMyAdmin to import the SQL file.
 
-### `npm run eject`
+3. Update the database configuration in the `.env` file located in the root directory.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Start a web server on your local machine and navigate to the application directory in your web browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+node server.js
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contributions to Pitch Deck are welcome. To contribute, follow these steps:
 
-## Learn More
+1. Fork the repository
+2. Create a new branch
+3. Make your changes and commit them
+4. Push your changes to your forked repository
+5. Create a pull request
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Pitch Deck is licensed under the MIT License. See the LICENSE file for more information.
